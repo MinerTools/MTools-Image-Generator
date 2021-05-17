@@ -1,0 +1,9 @@
+Options -Indexes
+#Options +MultiViews
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteRule ^(\X+)\.jpg$ card.php?id=$1
