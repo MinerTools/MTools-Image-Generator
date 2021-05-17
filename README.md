@@ -1,6 +1,6 @@
 # MTools-Image-Generator
 
-Generate Dynamic image to see current RIG Infos (using MinerTools API)
+PHP Script of MTools > generate dynamic image to see current RIG Infos (using MinerTools API)
 
 Preview
 
